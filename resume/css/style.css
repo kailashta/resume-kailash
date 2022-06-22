@@ -1,0 +1,72 @@
+body {
+    margin-left: 18%;
+    color: aliceblue;
+}
+
+.resume {
+    margin-right: 20%;
+    background-color: #06283D;
+    padding-left: 30px;
+    border-radius: 50px;
+}
+
+.profile-container {
+    border-spacing: 20px;
+}
+
+.profile-pic {
+    border-radius: 100%;
+    margin: 20px;
+}
+
+th,
+td {
+    padding-right: 50px;
+}
+
+.name {
+    margin-left: -70px;
+}
+
+.personal-profile {
+    margin-top: -40px;
+}
+
+.contact {
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+    color: #FF5D5D;
+}
+
+@media (max-width:600px) {
+    body {
+        margin-left: 10px;
+    }
+    img {
+        width: 100px;
+    }
+    th,
+    td {
+        padding-right: 40px;
+    }
+    h2,
+    h6 {
+        font-size: x-small;
+        font-size: 10px;
+    }
+    .resume {
+        margin-right:-140px;
+    }
+    .contact {
+        margin-left: -40px;
+    }
+    .skills {
+        margin-top: -110px;
+    }
+}
